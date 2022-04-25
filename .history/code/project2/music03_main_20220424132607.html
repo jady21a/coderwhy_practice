@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>main</title>
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/reset.css">
+</head>
+<style>
+  .main .wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    border: 1px solid #d3d3d3;
+    border-width: 0 1px;
+    background: url(./sprite/mian_border.png);
+  }
+
+  .main .wrapper .left {
+    width: 729px;
+  }
+
+  .main .wrapper .right {
+    /* right: 0; */
+    width: 250px;
+  }
+
+  .main .wrapper .right .login {
+    width: 250px;
+    height: 126px;
+    background: url(./sprite/mian_index.png);
+  }
+
+  .main .wrapper .right .login .desc {
+    width: 205px;
+    margin: 0 auto;
+    padding-top: 16px;
+    color: #666;
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .main .wrapper .right .login .btn {
+    display: block;
+    width: 100px;
+    height: 31px;
+    margin: 15px auto;
+    line-height: 31px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    text-shadow: 0 1px #8a060b;
+    background: url(./sprite/mian_index.png) 0 -195px;
+  }
+
+  .main .right .singer {
+    margin: 15px 0 0;
+  }
+
+  .main .right .singer .header {
+    display: flex;
+    justify-content: space-between;
+    width: 210px;
+    height: 23px;
+    /* line-height: 23px; */
+    font-size: 12px;
+    margin: 0 20px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .main .singer .header .settle-singer {
+    font-weight: 700;
+  }
+
+  .main .singer .header .more {
+    color: #666;
+  }
+
+  .main .singer .header .more:hover {
+    text-decoration: underline;
+  }
+
+  .main .right .singer .singer-list {
+    display: block;
+    /* padding: 10px 0; */
+    /* margin: 20px auto; */
+    width: 210px;
+
+  }
+
+  .main .right .singer-list .item {
+    display: flex;
+    width: 210px;
+    height: 62px;
+    margin-top: 15px;
+    background-color: rgb(209, 180, 180);
+  }
+</style>
+
+<body>
+  <div class="main">
+    <div class="wrapper">
+      <div class="left"></div>
+      <div class="right">
+        <div class="login">
+          <p class="desc">
+            登录网易云音乐，可以享受无限收藏的乐趣，并且无限同步到手机
+          </p>
+          <a class="btn" href="#">用户登录</a>
+        </div>
+        <div class="singer">
+          <h3 class="header">
+            <span class="settle-singer">入驻歌手</span>
+            <a class="more" href="#">查看全部</a>
+          </h3>
+          <ul class="singer-list">
+            <li><a class="item" href="#">
+                <div class="album">
+                  <img src="./img/Amei.jpg" alt="">
+                </div>
+                <div class="info">
+                  <div class="singer">张惠妹aMEI</div>
+                  <div class="desc">台湾歌手张惠妹</div>
+                </div>
+              </a></li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

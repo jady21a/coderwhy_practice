@@ -1,0 +1,31 @@
+body {
+  font-size: 14px;
+}
+
+.wrapper_top{
+  width: 1100px;
+  margin: 0 auto;
+}
+.wrapper {
+  width: 980px;
+  margin: 0 auto;
+}
+.singer_header{
+      display: flex;
+      justify-content: space-between;
+      width: 210px;
+      height: 23px;
+      font-size: 12px;
+      margin: 0 20px;
+      border-bottom: 1px solid #ccc;
+}
+.btn_sprite{
+  display: inline-block;
+  background: url(../sprite/button_left+right.png);
+  height: 31px;
+  line-height: 31px;
+  text-align: center;
+}
+.btn_01_sup{
+  background-position: 0 0;
+}

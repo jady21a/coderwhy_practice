@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>banner</title>
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/reset.css">
+</head>
+<style>
+  .banner {
+    height: 285px;
+    background: url(./img/banner02.jpg) center / 6000px;
+  }
+
+  .banner .wrapper {
+    position: relative;
+    justify-content: space-between;
+    height: 285px;
+    background-color: rgb(38, 111, 167);
+  }
+
+  .banner .left {
+    position: relative;
+    height: 285px;
+    width: 730px;
+  }
+
+  .banner .left .list {
+    display: flex;
+    overflow: hidden;
+  }
+
+  .banner .left .list li {
+    flex-shrink: 0;
+    width: 100%;
+  }
+
+  .banner .left .list .item img {
+    width: 100%;
+  }
+
+  .banner .left .dots-list {
+    position: absolute;
+    display: flex;
+    bottom: 5px;
+    /* margin: 0 auto; */
+    left: 0;
+    right: 0;
+    justify-content: center;
+  }
+
+  .banner .left .dots-list .item {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 2px;
+    background: url(./sprite/banner.png) 3px -343px;
+  }
+
+  .banner .left .dots-list .item:hover,
+  .banner .left .dots-list .item.active {
+    background: url(./sprite/banner.png) -16px -343px;
+  }
+
+  .banner .right {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 250px;
+    /* background-color: rgb(187, 73, 73); */
+    background: url(./sprite/download.png);
+  }
+
+  .banner .right .download {
+    display: block;
+    width: 215px;
+    height: 56px;
+    margin: 186px 0 0 19px;
+    text-indent: -99999px;
+  }
+
+  .banner .right .download:hover {
+    background: url(./sprite/download.png) 0 -290px;
+  }
+
+  .banner .right .desc {
+    margin-top: 8px;
+    font-size: 12px;
+    /* margin-left: 16px; */
+    text-align: center;
+    color: #8d8d8d;
+
+  }
+
+  .banner .wrapper .control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin:  auto 0;
+    width: 37px;
+    height: 63px;
+    background-color: rgb(196, 21, 21);
+  }
+  .banner .wrapper .
+</style>
+
+<body>
+  <div class="banner">
+    <div class="wrapper">
+      <div class="left">
+        <ul class="list">
+          <li class="item"><a href=""><img src="./img/banner01.jpg" alt=""></a></li>
+          <li class="item"><a href=""><img src="./img/banner01.jpg" alt=""></a></li>
+          <li class="item"><a href=""><img src="./img/banner01.jpg" alt=""></a></li>
+          <li class="item"><a href=""><img src="./img/banner01.jpg" alt=""></a></li>
+          <li class="item"><a href=""><img src="./img/banner01.jpg" alt=""></a></li>
+          <li class="item"><a href=""><img src="./img/banner01.jpg" alt=""></a></li>
+          <li class="item"><a href=""><img src="./img/banner01.jpg" alt=""></a></li>
+          <li class="item"><a href=""><img src="./img/banner01.jpg" alt=""></a></li>
+        </ul>
+        <ul class="dots-list">
+          <li><a href="#" class="item active"></a></li>
+          <li><a href="#" class="item"></a></li>
+          <li><a href="#" class="item"></a></li>
+          <li><a href="#" class="item"></a></li>
+          <li><a href="#" class="item"></a></li>
+          <li><a href="#" class="item"></a></li>
+          <li><a href="#" class="item"></a></li>
+          <li><a href="#" class="item"></a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <a class="download" href="#">download</a>
+        <p class="desc">PC 安卓 iPhone WP iPad Mac 六大客户端</p>
+      </div>
+      <a href="#" class="control previous"></a>
+      <a href="#" class="control next"></a>
+
+    </div>
+  </div>
+</body>
+
+</html>

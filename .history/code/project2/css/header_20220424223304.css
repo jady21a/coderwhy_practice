@@ -1,0 +1,25 @@
+.main .wrapper .left .header_l {
+  display: flex;
+  justify-content: space-between;
+  width: 689px;
+  height: 35px;
+  margin: 0 auto;
+  border-bottom: 2px solid #C10D0C;
+  background: url(../sprite/mian_index.png) no-repeat -225px -156px;
+}
+
+.main .left .header_l .left-header {
+  display: flex;
+  padding-left: 30px;
+  align-items: flex-end;
+  padding-bottom: 5px;
+}
+
+.main .left .header_l .hot-all {
+  font-size: 10px;
+  
+}
+
+.main .left .header_l .keywords {
+  display: flex;
+}

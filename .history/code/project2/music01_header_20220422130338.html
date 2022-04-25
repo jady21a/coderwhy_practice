@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>header</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/common.css">
+</head>
+<style>
+  .top {
+    height: 70px;
+    background-color: #242424;
+
+  }
+
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    /* background-color: rgb(29, 75, 4); */
+  }
+
+  .topbar .left {
+    display: flex;
+  }
+
+  .topbar .left .logo {
+    display: block;
+    text-indent: -999px;
+    background-image: url(./sprite/topbar.png);
+  }
+
+  .topbar .left .logo a {
+    display: block;
+    width: 157px;
+    padding-right: 20px;
+  }
+
+  .topbar .left .list {
+    display: flex;
+  }
+
+  .topbar .left .list .item {
+    position: relative;
+    display: block;
+    line-height: 70px;
+    padding: 0 19px;
+    color: #ccc;
+  }
+
+  .topbar .left .list .item:hover,
+  .topbar .left .list .item.active {
+    color: #fff;
+    background-color: #000;
+  }
+
+  .topbar .left .list .item.active::after {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 7px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-position: -226px 0;
+    background-image: url(./sprite/topbar.png);
+  }
+
+  .topbar .left .list .item .icon-hot {
+    position: absolute;
+    top: 14px;
+    right: -18px;
+    width: 28px;
+    height: 19px;
+    /* background-position: -190px 0;
+    background-image: url(./sprite/topbar.png); */
+    background: url(./sprite/topbar.png) -190px 0;
+  }
+
+  .topbar .right {
+    display: flex;
+    align-items: center;
+    color: #ccc;
+    line-height: 70px;
+  }
+
+  .topbar .right .search {
+    display: flex;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: flex-end;
+    height: 32px;
+    width: 158px;
+    box-sizing: border-box;
+    padding-right: 10px;
+    background-color: #fff;
+    background-position: 0 -99px;
+    background-image: url(./sprite/topbar.png);
+  }
+
+  .topbar .right .search input {
+    font-size: 12px;
+    width: 118px;
+  }
+
+  .topbar .right .author a {
+    display: inline-block;
+    width: 90px;
+    height: 32px;
+    margin: 0 20px;
+    line-height: 32px;
+    text-align: center;
+    box-sizing: border-box;
+    color: #ccc;
+    border: 1px solid #4F4F4F;
+    border-radius: 20px;
+  }
+
+  .topbar .right .author a:hover {
+    color: #fff;
+    border-color: #fff;
+  }
+
+  .topbar .right .load a {
+    color: #787878;
+  }
+
+  .topbar .right .load:hover a {
+    color: #adabab;
+  }
+
+  .topbar .right .load a:hover {
+    color: #787878;
+    text-decoration: underline;
+  }
+</style>
+
+<body>
+  <div class="top">
+    <div class="wrapper_top topbar">
+      <div class="left">
+        <h1 class="logo">
+          <a href="#">网易云音乐</a>
+        </h1>
+        <ul class="list">
+          <li><a href="#" class="item active">发现音乐</a></li>
+          <li><a href="#" class="item">我的音乐</a></li>
+          <li><a href="#" class="item">关注</a></li>
+          <li><a href="#" class="item">商城</a></li>
+          <li><a href="#" class="item">音乐人</a></li>
+          <li><a href="#" class="item ">下载客户端
+              <i class="icon-hot"></i>
+            </a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <div class="search">
+          <input type="text" placeholder="音乐/视频/电台/用户">
+        </div>
+        <div class="author"><a href="#">创作者中心</a></div>
+        <div class="load"><a href="#">登录</a></div>
+      </div>
+    </div>
+    <div class="nav">
+      <div class="navbar wrapper_top">
+        <ul class="list">
+          (li>a[herf=#].item)>span)*6
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

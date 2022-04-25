@@ -1,0 +1,27 @@
+.main .left{
+  width: 729px;
+}
+.main .recommend .list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 2px;
+}
+.main .recommend .list .item {
+  width: 140px;
+  margin-bottom: 30px;
+}
+.main .recommend .list .item .top{
+  position: relative;
+}
+.main .recommend .list .item .top img{
+  
+}
+.main .recommend .list .item .top .cover {
+  position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url(../sprite/music_cover_sprite.png);
+}

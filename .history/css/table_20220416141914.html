@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  table {
+    border-collapse: collapse;
+    text-align: center;
+    
+  }
+
+  td {
+    border: 1px solid #f00;
+    width: 100px;
+    height: 50px;
+  }
+
+  table tr:nth-child(-n+2),
+  table td[rowspan] {
+    font-size: 20px;
+    font-weight: bold;
+  }
+</style>
+
+<body>
+  <table>
+    <!--   tr*12>td{math}*6 -->
+    <tr>
+      <td colspan="6">课程表</td>
+
+    </tr>
+    <tr>
+      <td></td>
+      <td>Mon</td>
+      <td>Tues</td>
+      <td>Wed</td>
+      <td>Thur</td>
+      <td>Fri</td>
+    </tr>
+    <tr>
+      <td rowspan="4">上午</td>
+      <td>math</td>
+      <td>math</td>
+      <td>math</td>
+      <td>math</td>
+      <td>math</td>
+    </tr>
+    <tr>
+      <td>math</td>
+      <td>math</td>
+      <td>math</td>
+      <td>math</td>
+      <td>math</td>
+
+    </tr>
+    <tr>
+      <td>math</td>
+      <td>math</td>
+      <td>math</td>
+      <td>math</td>
+      <td>math</td>
+
+    </tr>
+    <tr>
+      <td>math</td>
+      <td>math</td>
+      <td>math</td>
+      <td>math</td>
+      <td>math</td>
+
+    </tr>
+    <tr>
+      <td rowspan="4">下午</td>
+      <td>math</td>
+      <td>math</td>
+      <td>math</td>
+      <td>math</td>
+      <td>math</td>
+    </tr>
+    <tr>
+      <td>math</td>
+      <td>math</td>
+      <td>math</td>
+      <td>math</td>
+      <td>math</td>
+
+    </tr>
+    <tr>
+      <td>math</td>
+      <td>math</td>
+      <td>math</td>
+      <td>math</td>
+      <td>math</td>
+
+    </tr>
+    <tr>
+      <td>math</td>
+      <td>math</td>
+      <td>math</td>
+      <td>math</td>
+      <td>math</td>
+
+    </tr>
+
+    <tr>
+      <td rowspan="2">晚自习</td>
+      <td>math</td>
+      <td>math</td>
+      <td>math</td>
+      <td>math</td>
+      <td>math</td>
+    </tr>
+    <tr>
+      <td>math</td>
+      <td>math</td>
+      <td>math</td>
+      <td>math</td>
+      <td>math</td>
+
+    </tr>
+  </table>
+
+</body>
+
+</html>

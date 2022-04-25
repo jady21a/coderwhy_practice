@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  .content {
+    width: 1100px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: rgb(92, 97, 92);
+  }
+
+  /* 3.在中间套一个盒子,且margin-right取负值 */
+  .box {
+    /* margin-left: 1px; */
+  }
+
+  .item {
+    width: 15p0px;
+    height: 168px;
+    background-color: rgb(174, 21, 21);
+    float: left;
+    border: 1px solid #000;
+    /* margin-left: -1px; */
+    box-sizing: border-box;
+
+  }
+
+  .un {
+    border-right: none;
+  }
+</style>
+
+<body>
+  <div class="content">
+    <div class="box">
+      <!-- .item.item${$}*5 -->
+      <div class="item item1 un">1</div>
+      <div class="item item2 un">2</div>
+      <div class="item item3 un">3</div>
+      <div class="item item4 un">4</div>
+      <div class="item item5 ">5</div>
+    </div>
+  </div>
+</body>
+
+</html>

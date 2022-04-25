@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  a{
+    text-decoration: none;
+    color:#333;
+  }
+  .item {
+    width: 140px;
+    height: 204px;
+    margin: 0 auto;
+  }
+
+  .item .top {
+    position: relative;
+    width: 140px;
+    height: 140px;
+  }
+
+  .item .top .cover {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 140px;
+    height: 140px;
+    background-position: 0 0;
+    background-image: url(./img/music_cover_sprite.png);
+  }
+
+  .item .top .info {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    bottom: 0;
+    /* 为什么不能用width: 100%*/
+    left: 0;
+    right: 0;
+
+    /* width: 100%; */
+    height: 27px;
+    font-size: 12px;
+    line-height: 27px;
+    padding-left: 7px;
+    background-position: 0 -537px;
+    background-image: url(./img/music_cover_sprite.png);
+  }
+
+  .item .top .info .icon {
+    /* 此处不需要定位,标准流即可 */
+    /* position: absolute; */
+    display: inline-block;
+    width: 14px;
+    height: 11px;
+    margin-right: 2px;
+    /* background-color: rgb(137, 37, 37); */
+    background-position: 0 -24px;
+    background-image: url(./img/music_iconall.png);
+  }
+
+  .bottom {
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .bottom:hover{
+    text-decoration: underline;
+
+  }
+</style>
+
+<body>
+  <div class="item">
+    <div class="top">
+      <img src="./img/softmusic.jpg" alt="soft music">
+      <div class="cover"></div>
+      <div class="info">
+        <i class="icon"></i>
+        <span class="count">3548万</span>
+      </div>
+    </div>
+    <a src="https://music.163.com/#/playlist?id=3080165816" class="bottom">
+      【纯音乐】温柔治愈系纯音乐
+    </a>
+  </div>
+</body>
+
+</html>

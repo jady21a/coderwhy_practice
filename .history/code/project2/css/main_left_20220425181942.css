@@ -1,0 +1,80 @@
+.main .left {
+  width: 729px;
+}
+
+.main .left .list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 2px;
+}
+
+.main .left .list .item {
+  width: 140px;
+  margin-bottom: 30px;
+}
+
+.main .left .list .item .top {
+  position: relative;
+}
+
+.main .left .list .item .top .cover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* background-image: url(../sprite/music_cover_sprite.png); */
+
+  background-position: 0 0;
+}
+
+.main .left  .item .top .info {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  bottom: 0;
+  /* 为什么不能用width: 100%*/
+  left: 0;
+  right: 0;
+  height: 27px;
+  font-size: 12px;
+  line-height: 27px;
+  padding-left: 7px;
+  /* background-image: url(../sprite/music_cover_sprite.png); */
+  background-position: 0 -537px;
+}
+
+.main .left  .item .top .info .icon-music {
+  margin-right: 2px;
+}
+
+.main .left  .item .top .info .icon-play {
+  position: absolute;
+
+  display: inline-block;
+  top: 0;
+  bottom: 0;
+  right: 10px;
+  margin: auto 0;
+  margin-top: 5px;
+  width: 16px;
+  height: 17px;
+  /* background-position: 0 0; */
+  /* background-image: url(../sprite/music_icon_all.png); */
+}
+
+.main .left  .item .bottom {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.main .left  .item .bottom:hover {
+  text-decoration: underline;
+}
+.main .left .disc{
+  height: 400px;
+  p
+  background-color: rgb(166, 91, 91);
+}

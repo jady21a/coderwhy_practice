@@ -1,0 +1,13 @@
+.main .left{
+  width: 729px;
+}
+.main .recommend .list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 2px;
+}
+.main .recommend .list .item {
+  width: 140px;
+  margin-bottom: ;
+}

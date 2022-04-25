@@ -1,0 +1,43 @@
+.main .wrapper .left .header_l {
+  display: flex;
+  justify-content: space-between;
+  width: 689px;
+  height: 35px;
+  margin: 0 auto;
+  border-bottom: 2px solid #C10D0C;
+  background: url(../sprite/mian_index.png) no-repeat -225px -156px;
+}
+
+.main .left .header_l .left-header {
+  display: flex;
+  padding-left: 35px;
+  align-items: flex-end;
+  padding-bottom: 8px;
+}
+
+.main .left .header_l .hot-all {
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.main .left .header_l .keywords {
+  display: flex;
+}
+
+.main .left .header_l .keywords {
+  display: flex;
+  /* font-weight: 700; */
+  font-size: 12px;
+  color: #666;
+}
+
+.main .left .header_l .keywords .items {
+  font-size: 12px;
+  color: #666;
+}
+/* q:为什么全选不上 */
+
+.main .left .header_l .keywords .line {
+  margin: 0 14px;
+}
+.main .left .header_l .keywords .line {

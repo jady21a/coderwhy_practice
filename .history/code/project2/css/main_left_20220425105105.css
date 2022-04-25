@@ -1,0 +1,101 @@
+.sprite_cover {
+  background-image: url(./img/music_cover_sprite.png);
+  display: inline-block;
+}
+
+.sprite_icon {
+  background-image: url(../img/music_iconall.png);
+  display: inline-block;
+}
+
+.sprite_icon_music {
+  width: 14px;
+  height: 11px;
+  background-position: 0 -24px;
+}
+
+.sprite_icon_paly {
+  width: 16px;
+  height: 17px;
+  background-position: 0 0;
+
+}
+
+.main .left .recommend_01 .item {
+  width: 140px;
+  height: 204px;
+}
+
+.main .left .recommend_01.item .top {
+  position: relative;
+  width: 140px;
+  height: 140px;
+}
+
+.main .left .recommend_01 .item .top .cover {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 140px;
+  height: 140px;
+  background-position: 0 0;
+  /* background-image: url(../img/music_cover_sprite.png); */
+}
+
+.main .left .recommend_01 .item .top .info {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  bottom: 0;
+  /* 为什么不能用width: 100%*/
+  left: 0;
+  right: 0;
+
+  /* width: 100%; */
+  height: 27px;
+  font-size: 12px;
+  line-height: 27px;
+  padding-left: 7px;
+  background-position: 0 -537px;
+  /* background-image: url(../img/music_cover_sprite.png); */
+}
+
+.main .left .recommend_01 .item .top .info .icon-music {
+  /* 此处不需要定位,标准流即可 */
+  /* position: absolute; */
+
+  /* display: inline-block; */
+  /* width: 14px;
+      height: 11px; */
+  margin-right: 2px;
+  /* background-color: rgb(137, 37, 37); */
+  /* background-position: 0 -24px; */
+  /* background-image: url(../img/music_iconall.png); */
+}
+
+.main .left .recommend_01 .item .top .info .icon-play {
+  position: absolute;
+
+  /* display: inline-block; */
+  top: 0;
+  bottom: 0;
+  right: 10px;
+  margin: auto 0;
+  /* margin-top: 5px; */
+  /* width: 16px;
+      height: 17px;
+      background-position: 0 0; */
+  /* background-image: url(./img/music_iconall.png); */
+}
+
+.main .left .recommend_01 .item .bottom {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.main .left .recommend_01 .item .bottom:hover {
+  text-decoration: underline;
+}

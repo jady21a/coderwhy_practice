@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>banner</title>
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/reset.css">
+</head>
+<style>
+  .banner {
+    height: 285px;
+    background: url(./img/banner02.jpg) center / 6000px;
+  }
+
+  .banner .wrapper {
+    height: 285px;
+    background-color: rgb(38, 111, 167);
+  }
+
+  .banner .left {
+    position: relative;
+    height: 285px;
+    width: 730px;
+  }
+
+  .banner .left .list {
+    display: flex;
+    overflow: hidden;
+  }
+
+  .banner .left .list li {
+    flex-shrink: 0;
+    width: 100%;
+  }
+
+  .banner .left .list .item img {
+    width: 100%;
+  }
+
+  .banner .left .dots-list {
+    position: absolute;
+    display: flex;
+    bottom: 5px;
+    /* margin: 0 auto; */
+    left: 0;
+    right: 0;
+    justify-content: center;
+  }
+
+  .banner .left .dots-list .item {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 2px;
+    background: url(./sprite/banner.png) 3px -343px;
+  }
+  .banner .left .dots-list .item:
+</style>
+
+<body>
+  <div class="banner">
+    <div class="wrapper">
+      <div class="left">
+        <ul class="list">
+          <li class="item"><a href=""><img src="./img/banner01.jpg" alt=""></a></li>
+          <li class="item"><a href=""><img src="./img/banner01.jpg" alt=""></a></li>
+          <li class="item"><a href=""><img src="./img/banner01.jpg" alt=""></a></li>
+          <li class="item"><a href=""><img src="./img/banner01.jpg" alt=""></a></li>
+          <li class="item"><a href=""><img src="./img/banner01.jpg" alt=""></a></li>
+          <li class="item"><a href=""><img src="./img/banner01.jpg" alt=""></a></li>
+          <li class="item"><a href=""><img src="./img/banner01.jpg" alt=""></a></li>
+          <li class="item"><a href=""><img src="./img/banner01.jpg" alt=""></a></li>
+        </ul>
+        <ul class="dots-list">
+          <li><a href="#" class="item"></a></li>
+          <li><a href="#" class="item"></a></li>
+          <li><a href="#" class="item"></a></li>
+          <li><a href="#" class="item"></a></li>
+          <li><a href="#" class="item"></a></li>
+          <li><a href="#" class="item"></a></li>
+          <li><a href="#" class="item"></a></li>
+          <li><a href="#" class="item"></a></li>
+        </ul>
+      </div>
+      <div class="right"></div>
+    </div>
+  </div>
+</body>
+
+</html>
